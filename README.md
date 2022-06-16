@@ -30,12 +30,10 @@ and, ultimately, the content.
   encryption on a given target board.
   More specifically, the implementation roughly matches 
   FIPS-197 [Section 6.4, 1]
-  (or at least the references it then cites),
-  in the sense it 
-  
-  - focuses on use of an 8-bit data-path,
-    but
-  - uses look-ups into pre-computed tables for the S-box and `xtime` operations.
+  (or at least the references it then cites):
+  this implies that it focuses on use of an 8-bit data-path, but uses
+  small, pre-computed look-up tables to support the S-box and `xtime` 
+  operations.
 
 - For each target board there are in fact *two* data sets, namely
 
