@@ -1,0 +1,4 @@
+h5py==3.7.0
+matplotlib==3.5.2
+numpy==1.22.2
+pycryptodome==3.14.0
