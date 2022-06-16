@@ -1,2 +1,2 @@
-trace/**/*.hdf5.gz filter=lfs diff=lfs merge=lfs -text
+**/*.hdf5.gz filter=lfs diff=lfs merge=lfs -text
 
